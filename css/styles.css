@@ -33,6 +33,7 @@ button:focus {
     line-height: 1.17;
     text-transform: uppercase;
 text-decoration: none;
+letter-spacing: 0.03em;
     color: #4d5ae5;
 }
 
@@ -48,16 +49,16 @@ text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
+    letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
 }
 
-.header-link-studio:hover {
+.header-link-item:hover {
     color: #404bbf;
 }
 
-.header-link-studio:active  {
-    text-decoration: underline;
+.header-link-item:focus  {
     color: #404bbf;
 }
 
@@ -73,12 +74,17 @@ text-decoration: none;
     color: #404bbf;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .social-link-item {
     color: #434455;
     text-decoration: none;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.50;
+        letter-spacing: 0.02em;
 }
 
 .social-link-item:hover {
@@ -100,7 +106,7 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .first-button {
@@ -128,14 +134,15 @@ text-decoration: none;
 }
 
 .team-section {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+    background-color: #f4f4fd;
 }
 
 .team-title {
+        font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
     background: #f4f4fd;
 }
 
