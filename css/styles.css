@@ -15,11 +15,11 @@ ul {
 button {
     cursor: pointer;
     color: #FFFFFF; 
-            background: #4d5ae5;
+ background-color: #4d5ae5;
 }
 
 button:hover {
-        background: #404bbf;
+    background-color: #404bbf;
 }
 
 button:focus {
@@ -42,7 +42,7 @@ letter-spacing: 0.03em;
 }
 
 .header-links {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .header-link-studio {
@@ -58,7 +58,7 @@ letter-spacing: 0.03em;
     color: #404bbf;
 }
 
-.header-link-item:focus  {
+.header-link-item:focus {
     color: #404bbf;
 }
 
@@ -94,7 +94,6 @@ letter-spacing: 0.03em;
 .header-link-item:focus {
     color: #404bbf;
 }
-
 .first-section {
     background-color: #2e2f42;
 }
@@ -108,6 +107,7 @@ letter-spacing: 0.03em;
     color: #FFFFFF;
     background-color: #2e2f42;
 }
+
 
 .first-button {
     font-family: "Roboto", sans-serif;
